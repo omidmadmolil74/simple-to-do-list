@@ -27,7 +27,7 @@ function App() {
     }
   ])
   return (
-    <div className='min-h-screen bg-black flex justify-center items-center flex-col gap-10'>
+    <div className='min-h-screen bg-gray-800 flex justify-center items-center flex-col gap-10'>
     <TaskContexts.Provider value={{
       taskItems , setTaskItems
     }}>
